@@ -2,16 +2,13 @@
 /**
  * main - entry point for program
  *
- * Description: prints the lowercase alphabet in reverse
+ * Description: print alphabet in reverse
  *
  * Return: always 0 (success)
- *
  */
-int main(void) 
+int main(void)
 {
-
 	int i;
-
 
 	for (i = 122; i > 96; i--)
 		putchar(i);
