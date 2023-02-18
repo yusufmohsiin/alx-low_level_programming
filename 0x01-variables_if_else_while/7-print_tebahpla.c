@@ -1,16 +1,17 @@
 #include <stdio.h>
 /**
- * main - Entry point of program
+ * main - entry point for program
  *
  * Description: prints the lowercase alphabet in reverse
  *
- * Return 0 (success)
+ * Return: always 0 (success)
  *
  */
 int main(void) 
 {
 
 	int i;
+
 
 	for (i = 122; i > 96; i--)
 		putchar(i);
