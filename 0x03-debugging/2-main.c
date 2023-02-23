@@ -1,4 +1,3 @@
-s (17 sloc) 279 Bytes
 #include <stdio.h>
 #include "main.h"
 
