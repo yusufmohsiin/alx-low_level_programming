@@ -1,6 +1,6 @@
-# 0. isupper
+### 0. isupper
 Write a function that checks for uppercase character.
-## 1. isdigit
+### 1. isdigit
 Write a function that checks for a digit (0 through 9).
 ### 2. Collaboration is multiplication
 Write a function that multiplies two integers.
@@ -16,3 +16,7 @@ Write a function that draws a straight line in the terminal
 Write a function that draws a diagonal line on the terminal.
 ### 8. You are so much sunshine in every square inch
 Write a function that prints a square, followed by a new line.
+### 9. Fizz-Buzz
+Write a program that prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
+### 10. Triangles
+Write a function that prints a triangle, followed by a new line.
