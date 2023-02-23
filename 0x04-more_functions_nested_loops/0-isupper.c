@@ -3,10 +3,9 @@
 
 /**
  * _isupper : Check if 'c' parameter represents an uppercase letter.
- * @c : Int representing a character
+ * @c: Int representing a character
  * Return: Always 0.
  */
-
 int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
