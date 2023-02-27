@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * print_rev - Prints a string, in reverse.
- * @s: The string that has to be printed
- *
- * Return: void
- */
+  * print_rev - Prints a string chars in reverse
+  * @s: The string to print
+  *
+  * Return: void
+  */
 void print_rev(char *s)
 {
 	int i = 0;
@@ -22,5 +22,4 @@ void print_rev(char *s)
 	}
 
 	_putchar('\n');
-	
 }
