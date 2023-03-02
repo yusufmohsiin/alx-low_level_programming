@@ -6,7 +6,6 @@
  * @dest: string to be appended to
  * Return: a pointer which is the result
  */
-
 char *_strcat(char *dest, char *src)
 {
 	int i = 0;
