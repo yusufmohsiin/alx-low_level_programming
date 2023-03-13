@@ -3,7 +3,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ## Learning Objectives
 
-### General
+## General
 
     What is the difference between automatic and dynamic allocation
     What is malloc and free and how to use them
