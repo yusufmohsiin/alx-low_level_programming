@@ -6,7 +6,6 @@
  * @b: string of 0 and 1 chars.
  *
  * Return: converted integer, or 0.
- *
  */
 
 unsigned int binary_to_unit(const char *b)
