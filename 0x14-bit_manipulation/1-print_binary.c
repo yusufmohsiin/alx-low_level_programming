@@ -6,6 +6,7 @@ void _res(unsigned long int n);
 /**
   * print_binary - binary representation of a number
   * @n: binary number to represent
+  * Author: Yusuf Mohsen
   *
   * Return: Nothing
   */
