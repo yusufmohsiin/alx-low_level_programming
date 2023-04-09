@@ -21,12 +21,12 @@ void print_binary(unsigned long int n)
 }
 
 /**
-  * _div - checks for
+  * _res - checks for
   * @n: number to check for
   *
   * Return: nothing
   */
-void _div(unsigned long int n)
+void _res(unsigned long int n)
 {
 	if (n < 1)
 		return;
