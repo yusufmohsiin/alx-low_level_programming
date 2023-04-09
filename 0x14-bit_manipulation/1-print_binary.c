@@ -4,8 +4,8 @@
 
 void _res(unsigned long int n);
 /**  
-  * print_binary - binary representation of a num
-  * @n: binary num to represent
+  * print_binary - binary representation of a number
+  * @n: binary number to represent
   *
   * Return: Nothing
   */
