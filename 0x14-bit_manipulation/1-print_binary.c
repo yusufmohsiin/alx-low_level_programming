@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include "main.h"
 
-void _res(unsigned long int n);
-/**  
+void _div(unsigned long int n);
+/**
   * print_binary - binary representation of a number
   * @n: binary number to represent
   *
@@ -17,21 +17,21 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
-	_res(n);
+	_div(n);
 }
 
 /**
-  * _res - checks for
+  * _div - checks for
   * @n: number to check for
   *
   * Return: nothing
   */
-void _res(unsigned long int n)
+void _div(unsigned long int n)
 {
 	if (n < 1)
 		return;
 
-	_res(n >> 1);
+	_div(n >> 1);
 
 	if (n & 1)
 		_putchar('1');
