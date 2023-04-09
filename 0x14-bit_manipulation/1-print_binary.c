@@ -3,10 +3,7 @@
 #include "main.h"
 
 void _res(unsigned long int n);
-/**
-  * Author: Yusuf Mohsen
-  * Date: 09-04-23
-  *  
+/**  
   * print_binary - binary representation of a num
   * @n: binary num to represent
   *
