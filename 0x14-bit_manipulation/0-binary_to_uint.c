@@ -5,7 +5,7 @@
  * binary_to_unit - Converts a binary to an unsigned integer.
  * @b: string of 0 and 1 chars.
  *
- * Return: converted integer, otherwise 0
+ * Return: converted integer, or 0.
  *
  */
 
@@ -25,7 +25,6 @@ unsigned int binary_to_unit(const char *b)
 		else
 			return(0);
 	}
-	
 	while (n < 1)
 	{
 		x = x << 1;
