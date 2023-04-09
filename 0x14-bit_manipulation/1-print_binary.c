@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include "main.h"
 
-void _div(unsigned long int n);
+void _res(unsigned long int n);
 /**
   * print_binary - binary representation of a number
   * @n: binary number to represent
-  *
+  * Author: Yusuf Mohsen
   * Return: Nothing
   */
 void print_binary(unsigned long int n)
@@ -17,7 +17,7 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
-	_div(n);
+	_res(n);
 }
 
 /**
@@ -31,7 +31,7 @@ void _div(unsigned long int n)
 	if (n < 1)
 		return;
 
-	_div(n >> 1);
+	_res(n >> 1);
 
 	if (n & 1)
 		_putchar('1');
