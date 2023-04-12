@@ -5,14 +5,13 @@
  * read_textfile - reads text file and prints it to POSIX stdout.
  * @filename: pointer to name of file.
  * @letters: number of letters func reads and print.
- * Author: Yusuf Mohsen
  *
  * Return: If the function fails or filename is NULL - 0.
  *         O/w - the actual number of bytes the function can read and print.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	ssize_t x, y, z;
+	ssize_t o, r, w;
 	char *buff;
 
 	if (filename == NULL)
@@ -22,18 +21,18 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (buff == NULL)
 		return (0);
 
-	x = open(filename, O_RDONLY);
-	y = read(o, buff, letters);
-	z = write(STDOUT_FILENO, buff, r);
+	o = open(filename, O_RDONLY);
+	r = read(o, buff, letters);
+	w = write(STDOUT_FILENO, buff, r);
 
-	if (x == -1 || y == -1 || z == -1 || z !=y)
+	if (o == -1 || r == -1 || w == -1 || w != r)
 	{
 		free(buff);
 		return (0);
 	}
 
 	free(buff);
-	close(x);
+	close(o);
 
-	return (z);
+	return (w);
 }
