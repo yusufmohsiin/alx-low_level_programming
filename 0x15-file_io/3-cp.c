@@ -5,7 +5,6 @@
 char *create_buffer(char *file);
 void close_file(int fd);
 
-
 /**
  * main - Copies the contents of a file to another file.
  * @argc: number of arguments supplied.
@@ -48,7 +47,7 @@ int main(int argc, char *argv[])
 			exit(99);
 		}
 
-		x = read(from, buffer, 1024);
+		x = read(frm, buffer, 1024);
 		t = open(argv[2], O_WRONLY | O_APPEND);
 
 	} while (x > 0);
