@@ -9,12 +9,12 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	// declare converted number variable
+	/* declare converted number variable */
 	unsigned int conv_num = 0;
-       // iterate through string characters using for loop
+       /* iterate through string characters using for loop */
        int counter = 0;
 
-       // make sure of the nature of string
+       /* make sure of the nature of string */
        if (b == NULL)
 	       return 0;
 
@@ -22,14 +22,14 @@ unsigned int binary_to_uint(const char *b)
        {
 	       if (b[counter] == '0' || b[counter] == '1')
 	       {
-		       conv_num = conv_num << 1; //shifts from char to another
+		       conv_num = conv_num << 1; /* shifts from char to another */
 		       if (b[counter] == '1')
 			   conv_num += 1;
 	       }
 	       else
 		       return 0;
 
-	       i++;
+	       counter++;
        }
 
        return conv_num;
