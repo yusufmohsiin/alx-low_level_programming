@@ -2,9 +2,9 @@
 #include <stddef.h>
 
 /**
- * binary_to_uint - converts binary number to an unsigned integer
- * @b: pointer refers to a string of 0's and 1's
- *
+ * binary_to_uint - converts binary number to an unsigned integer.
+ * @b: pointer refers to a string of 0's and 1's.
+ *  
  * Return: the converted number otherwise return 0.
  */
 unsigned int binary_to_uint(const char *b)
