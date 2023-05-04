@@ -16,7 +16,7 @@ unsigned int binary_to_uint(const char *b)
 
        /* make sure of the nature of string */
        if (b == NULL)
-	       return 0;
+	       return (0);
 
        while (b[counter])
        {
@@ -27,10 +27,10 @@ unsigned int binary_to_uint(const char *b)
 			   conv_num += 1;
 	       }
 	       else
-		       return 0;
+		       return (0);
 
 	       counter++;
        }
 
-       return conv_num;
+       return (conv_num);
 }
