@@ -3,7 +3,7 @@
 
 /*
  * file: main.h
- * Desc: list all prototypes for all functions written in 0x14-bit_manipulation project
+ * Desc: list all prototypes for all functions written in 0x14
  */
 
 int _putchar(char c);
