@@ -5,7 +5,7 @@
  * binary_to_uint - Converts binary string to unsigned integer
  * @b: string of 0's or 1's
  *
- * return: converted number, otherwise 0
+ * Return: converted number, otherwise 0
  */
 unsigned int binary_to_uint(const char *b)
 {
@@ -32,4 +32,4 @@ unsigned int binary_to_uint(const char *b)
 		coun++;
 	}
 	return (conv_num);
-}	
+}
