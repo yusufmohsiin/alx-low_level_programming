@@ -8,7 +8,7 @@
  *
  * Return: Nothing
  */
-void print_binary(unsigned log int n)
+void print_binary(unsigned long int n)
 {
 	/*Recursive step*/
 	if (n > 1)
