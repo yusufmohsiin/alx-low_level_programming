@@ -16,16 +16,15 @@ int create_file(const char *filename, char *text_content)
 		return (-1); /*function indicates an error*/
 
 	fun = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
-
-        if (fun < 0)
-          return (-1);
+	if (fun < 0)
+		return (-1);
 
 	if (text_content)
 	{
 		while (text_content[len])
-			len++;
+			len++; /*Calculates the length of string*/
 
-		if (write(fun, text_content, len) != len) /*Another case for function failure*/
+		if (write(fun, text_content, len) != len) /*Writes the conents of the filee*/
 		{
 			close(fun);
 			return (-1);
